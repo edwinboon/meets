@@ -8,7 +8,7 @@ describe('Header', () => {
 
          // Act
         const header = screen.getByText('Meets');
-        
+
         // Assert
         expect(header).toBeTruthy();
     })
